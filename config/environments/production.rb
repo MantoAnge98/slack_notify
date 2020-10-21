@@ -1,4 +1,8 @@
 Rails.application.configure do
+   #Slack informations
+   SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
+   SLACK_WEBHOOK_CHANNEL: "#général"
+  
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
